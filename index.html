@@ -22,27 +22,19 @@
     <title>투어리스트</title>
 
     <!-- 스타일 -->
-    <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <!-- 사용자 스타일 -->
     <link rel="stylesheet" href="css/ui.css">
     
     <!-- 스크립트 -->
-    <script src="js/jquery-3.5.1.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/smooth-scroll.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/swiper.js"></script>
     <script src="js/swiper.min.js"></script>
-    <script src="js/prefixfree.js"></script>
     <script src="js/prefixfree.min.js"></script>
-
     <!-- 주석조건문 -->
     <!-- [if lte IE 8]>
-    <script src="js/html5shiv.js"></script>
     <script src="js/html5shiv.min.js"></script>
-    <script src="js/placeholders.js"></script>
     <script src="js/placeholders.min.js"></script>
     <![endif] -->
 
@@ -50,6 +42,129 @@
     <script src="js/ui.js"></script>
 </head>
 <body>
-    
+    <div class="skip"><a href="#">본문 바로가기</a></div>
+    <div class="pos_fix">
+        <ul class="clearfix">
+            <li class="float_left"><a href="tel:02-444-4444">전화 문의</a></li>
+            <li class="float_left"><a href="#" onclick="return false" id="kakao">카카오톡 상담</a></li>
+            <li class="float_left"><a href="#">오시는 길</a></li>
+        </ul>
+        <p><a href="#header">▲<br>TOP</a></p>
+    </div>
+    <div class="wrap">
+        <header id="#header">
+            <div class="content clearfix">
+                <div class="tgl_btn float_left">
+                    &#9776;
+                </div>
+                <div class="logo_box float_left">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="nav_box float_right">
+                    <ul class="login_join clearfix">
+                        <li class="float_left"><a href="login.html">로그인</a></li>
+                        <li class="float_left"><a href="join.html">회원가입</a></li>
+                    </ul>
+                    <nav class="nav">
+                        <ul class="main_nav clearfix">
+                            <li class="float_left">
+                                <a href="#">여행정보</a>
+                                <ul class="sub_nav clearfix">
+                                    <li class="float_left"><a href="#">국내</a></li>
+                                    <li class="float_left"><a href="#">해외</a></li>
+                                </ul>    
+                            </li>
+                            <li class="float_left">
+                                <a href="notice.html">고객센터</a>
+                                <ul class="sub_nav clearfix">
+                                    <li class="float_left"><a href="notice.html">공지사항</a></li>
+                                    <li class="float_left"><a href="#">문의하기</a></li>
+                                </ul>    
+                            </li>
+                            <li class="float_left">
+                                <a href="program.html">상품투어</a>
+                                <ul class="sub_nav clearfix">
+                                    <li class="float_left"><a href="program.html">프로그램 소개</a></li>
+                                    <li class="float_left"><a href="#">여행자료</a></li>
+                                </ul>    
+                            </li>
+                            <li class="float_left">
+                                <a href="#">티켓/가이드</a>
+                                <ul class="sub_nav clearfix">
+                                    <li class="float_left"><a href="#">항공</a></li>
+                                    <li class="float_left"><a href="#">호텔</a></li>
+                                </ul>    
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="main_banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide_box">
+                            <div class="back_img">
+                                <img src="images/mainslide01.jpg" alt="banner01">
+                            </div>
+                            <div class="over_img">
+                                <img src="images/img_slidecontents01.png" alt="text">
+                            </div>
+                            <div class="over_txt">
+                                <p>BE TOURIST FOR BETTER LIFE</p>
+                            </div>
+                        </div>
+                        <div class="mo_slide_box">
+                            <div class="mo_img">
+                                <img src="images/mo_banner01.jpg" alt="mo01">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide_box">
+                            <div class="back_img">
+                                <img src="images/mainslide02.jpg" alt="banner02">
+                            </div>
+                            <div class="over_img">
+                                <img src="images/img_slidecontents01.png" alt="text">
+                            </div>
+                            <div class="over_txt">
+                                <p>BE TOURIST FOR BETTER LIFE</p>
+                            </div>
+                        </div>
+                        <div class="mo_slide_box">
+                            <div class="mo_img">
+                                <img src="images/mo_banner02.jpg" alt="mo02">
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide_box">
+                            <div class="back_img">
+                                <img src="images/mainslide03.jpg" alt="banner03">
+                            </div>
+                            <div class="over_img">
+                                <img src="images/img_slidecontents01.png" alt="text">
+                            </div>
+                            <div class="over_txt">
+                                <p>BE TOURIST FOR BETTER LIFE</p>
+                            </div>
+                        </div>
+                        <div class="mo_slide_box">
+                            <div class="mo_img">
+                                <img src="images/mo_banner03.jpg" alt="mo03">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="topplace">top place</section>
+        <section class="notice">notice</section>
+        <footer>footer</footer>
+    </div>
 </body>
 </html>

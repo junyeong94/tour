@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+.sec_form h3{color: red;}
+.sec_form hr{width:100%;height:1px; background-color:gray; margin:20px 0;}
+.sec_form .tit_label{display:inline-block;width:200px;font-size:1.2em;} 
+.sec_form>.content{width:95%; max-width:800px;}
+.sec_form .must::before{content: '*'; display: inline-block; color:red; width:20px;}
+.sec_form input,.sec_form textarea{border:1px solid gray; padding:6px 10px; width:100%;}
+.sec_form input[id*="e-"]{width:140px;}
+.sec_form input[type="radio"],.sec_form input[type="checkbox"]{width:auto;}
+.button_box{padding-top:30px;text-align: center;}
+button{border:1px solid turquoise; padding:10px 20px;font-weight:bold; font-size:1.4em; background-color:darkblue; color:white; cursor: pointer;}
+button:hover{border: 1px solid darkblue; background-color:#fff;color: darkblue;}
+
+@media (min-width:801px){
+    .sec_form .tit_label{width:20%;}
+    .sec_top input,textarea{width:80%;}
+    .sec_form .no_must{padding-left:1em;}
+}

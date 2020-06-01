@@ -1,0 +1,22 @@
+@charset 'utf-8';
+
+.sec_top{height:400px;padding-top:180px;background-image:url('../images/img_top2.jpg');
+    background-size:cover; background-position: center;}
+.sec_form h3{border-bottom:2px solid #000; }
+.sec_form h3 span{padding:10px 5%; color:white; background-color:black;display:inline-block; font-size: 1.6em;}
+.sec_form li{border-bottom: 1px solid gray;}
+.first_box,.last_box{margin:10px 0;}
+.first_box p{font-weight:bold; font-size: 1.2em;}
+.last_box>p,.last_box>label{font-size:1.2em;}
+.sec_form hr{width:100%; height:1px; color:gray; margin:20px 0;}
+.sec_form input[type="radio"],.sec_form input[type="checkbox"]{width:20px;}
+.button_box{padding-top:30px;text-align: center;}
+button{border:1px solid turquoise; padding:10px 20px;font-weight:bold; font-size:1.4em; background-color:darkblue; color:white; cursor: pointer;}
+button:hover{border:1px solid darkblue; background-color: #fff; color: darkblue;}
+
+@media (min-width:801px){
+    .first_box,.last_box{float: left;}
+    .first_box{width:25%;margin: 0; padding:20px; background-color:#ddd;}
+    .last_box{float:right; width:75%; margin:0; padding:20px;}
+    .padding-top10px{padding-top:10px; padding-bottom:0;}
+}
